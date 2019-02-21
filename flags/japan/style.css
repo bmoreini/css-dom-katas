@@ -1,15 +1,28 @@
-#flag-bg {
-  background-color:#006A4E;
-  width:900px;
-  height:600px;
-  margin:0;
-  position:absolute;
+body {
+  background-color:#fff;
 }
 
 #flag {
-  background-color:#F42A41;
   width:400px;
   height:400px;
   margin:100px 0 0 220px;
   border-radius:50%;
+}
+
+
+button {
+  position:absolute;
+  background-color:blue;
+  color:white;
+  top:0;
+  height:30px;
+  margin:5px;
+}
+
+button:hover {
+  background-color:red;
+}
+
+.japan {
+	background-color:#BD0029; 
 }
